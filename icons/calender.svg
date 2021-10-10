@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="569.937" height="624.363" viewBox="0 0 569.937 624.363">
+  <g id="calender" transform="translate(-188.185 -241.864)">
+    <g id="Group_1" data-name="Group 1" transform="translate(982.878 321.864)">
+      <g id="calender-2" data-name="calender">
+        <path id="Path_2" data-name="Path 2" d="M512.611,64.436H480.948V2H417.621V64.436H164.316V2H100.99V64.436H69.326a62.6,62.6,0,0,0-63.01,62.436L6,563.926c0,34.5,28.339,62.436,63.326,62.436H512.611c34.988,0,63.326-27.94,63.326-62.436V126.873C575.937,92.376,547.6,64.436,512.611,64.436Zm0,499.49H69.326v-343.4H512.611ZM96.653,282.963h91.316v80.091H96.653Z" transform="translate(-800.692 -82)" fill="#7a7a7a"/>
+      </g>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M132.653,282.963h91.316v80.091H132.653Z" transform="translate(145.878 360)" fill="#7a7a7a"/>
+    <path id="Path_5" data-name="Path 5" d="M132.653,282.963h91.316v80.091H132.653Z" transform="translate(442.878 242.037)" fill="#7a7a7a"/>
+    <path id="Path_6" data-name="Path 6" d="M132.653,282.963h91.316v80.091H132.653Z" transform="translate(292.878 242.037)" fill="#7a7a7a"/>
+    <path id="Path_15" data-name="Path 15" d="M132.653,282.963h91.316v80.091H132.653Z" transform="translate(439.878 359.955)" fill="#7a7a7a"/>
+    <path id="Path_16" data-name="Path 16" d="M132.653,282.963h91.316v80.091H132.653Z" transform="translate(292.878 359.955)" fill="#7a7a7a"/>
+  </g>
+</svg>
