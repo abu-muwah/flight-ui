@@ -46,6 +46,10 @@ body {
     margin-right: 35px;
 }
 
+.nav-tabs {
+    border-bottom: none !important;
+}
+
 .tab-content-rounded {
     border-radius: 30px;
 }
