@@ -46,6 +46,10 @@ body {
     margin-right: 35px;
 }
 
+.tab-content-rounded {
+    border-radius: 30px;
+}
+
 .p-relative {
     position: relative;
     height: 407px;
