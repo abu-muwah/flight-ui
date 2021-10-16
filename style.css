@@ -61,7 +61,7 @@ body {
 
 .p-abolute {
     position: absolute;
-    top: 240px;
+    top: 249px;
     left: 0;
     right: 50px;
 }
@@ -74,15 +74,13 @@ body {
 
 .box {
     border: 1px dashed black;
-    border-radius: 10px;
-    padding: 3px 20px;
 }
 
 .box-btn-edit {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:  1px grey solid !important;
+    border:  1px #CCCCCC solid !important;
     border-radius: 10px;
     height: 15px;
     width: 15px;
