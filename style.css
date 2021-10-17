@@ -145,4 +145,9 @@ body {
     .box-titles {
         font-size: 15px;
     }
+
+    .search-flights-btn {
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
 }
