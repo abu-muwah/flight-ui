@@ -112,6 +112,12 @@ body {
     border-bottom: 1.9px solid #252726;
 }
 
-/* @media screen () {
-    
-} */
+@media only screen and (max-width: 375px) {
+    .sign-in {
+        background-color: white;
+        border-radius: 50px;
+        text-decoration: none;
+        padding: 2px 30px 5px 30px;
+    }
+
+}
