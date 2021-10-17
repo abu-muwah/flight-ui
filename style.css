@@ -123,6 +123,11 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+    
+    .spacer-100 {
+        height: 40px;
+    }
+
     .custom-container-margin {
         margin-left: 0px;
     }
