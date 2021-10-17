@@ -113,16 +113,13 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+
     .sign-in {
         background-color: white;
         border-radius: 50px;
         text-decoration: none;
         padding: 2px 30px 5px 30px;
     }
-
-}
-
-@media only screen and (max-width: 375px) {
     
     .spacer-100 {
         height: 40px;
@@ -150,4 +147,10 @@ body {
         border-radius: 8px;
         padding: 5px 10px;
     }
+
+    .p-relative {
+        position: relative;
+        height: 700px;
+    }
+    
 }
