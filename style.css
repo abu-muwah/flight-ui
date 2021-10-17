@@ -132,4 +132,8 @@ body {
         margin-bottom: 20px;
         line-height: 35px;
     }
+
+    .prices  {
+        font-size: 18px;
+    }
 }
