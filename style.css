@@ -141,4 +141,8 @@ body {
     .prices  {
         font-size: 18px;
     }
+
+    .box-titles {
+        font-size: 15px;
+    }
 }
