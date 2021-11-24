@@ -112,6 +112,10 @@ body {
     border-bottom: 1.9px solid #252726;
 }
 
+/* @media only screen and (max-width: 320px) {
+
+} */
+
 @media only screen and (max-width: 375px) {
 
     .sign-in {
