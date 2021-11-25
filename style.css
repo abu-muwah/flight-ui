@@ -112,9 +112,15 @@ body {
     border-bottom: 1.9px solid #252726;
 }
 
-/* @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
+    .final-part {
+        height: 210px;
+    }
 
-} */
+    .toggle-btn-parent {
+        margin-top: 25px;
+    }
+}
 
 @media only screen and (max-width: 375px) {
 
@@ -157,6 +163,22 @@ body {
         height: 700px;
     }
     
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .header-main-spacer {
+        height: 40px;
+    }
+
+    .p-relative {
+        height: 700px;
+    }
+
+    .p-abolute {
+        
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -165,9 +187,7 @@ body {
     }
 
     .final-part {
-        height: 290px;
+        height: 276px;
     }
-
-
 }
 
