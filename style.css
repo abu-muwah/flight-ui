@@ -38,6 +38,10 @@ body {
     color: rgb(14, 88, 156);
 }
 
+.nav-link-position:focus::after {
+    width: 100%;
+}
+
 .form-btns-design {
     color: black;
 }
