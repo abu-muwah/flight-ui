@@ -56,7 +56,11 @@ body {
     border-top-right-radius: 0 !important;
 }
 
-.tab-btns:hover {
+.tab-btns:hover{
+    background-color: #fff !important;
+}
+
+.tab-btns.active, .tab-btns:focus  {
     transform: scale(1.1);
     background-color: #fff !important;
 }
