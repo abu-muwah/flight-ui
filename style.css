@@ -18,6 +18,26 @@ body {
     color: #828282;
 }
 
+.nav-link-position {
+    position: relative; 
+}
+
+.nav-link-position::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(34, 115, 221);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+.nav-link-position:hover:after, .nav-link-position:focus  {
+    width: 100%;   
+    color: rgb(14, 88, 156);
+}
+
 .form-btns-design {
     color: black;
 }
