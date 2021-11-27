@@ -50,8 +50,25 @@ body {
     border-bottom: none !important;
 }
 
-.tab-content-rounded {
+.tab-btns {
+    background-color: rgb(240, 240, 240) !important;
+    transition: all 0.2s ease-in-out !important;   
+    border-top-right-radius: 0 !important;
+}
+
+.tab-btns:hover {
+    transform: scale(1.1);
+    background-color: #fff !important;
+}
+
+.car-btn-custom-border {
+    border-top-left-radius: 0 !important;
+}
+
+.tab-content {
+    background-color: rgb(240, 240, 240);
     border-radius: 30px;
+    border-top-left-radius: 0 !important;
 }
 
 .p-relative {
