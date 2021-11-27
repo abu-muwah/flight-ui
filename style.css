@@ -101,10 +101,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:  1px #CCCCCC solid !important;
+    border:  0.2px #CCCCCC solid !important;
     border-radius: 10px;
     height: 15px;
     width: 15px;
+}
+
+.box-btn-edit:hover, .box-btn-edit:focus, .box-btn-edit.active {
+    background-color: #7A7A7B;
 }
 
 .search-flights-btn {
