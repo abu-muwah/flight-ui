@@ -25,7 +25,7 @@ body {
 .nav-link-position::after {
     content: '';
     position: absolute;
-    background-color: rgb(34, 115, 221);
+    background-color: #0a58ca;
     height: 2px;
     width: 0;
     left: 0;
@@ -35,7 +35,7 @@ body {
 
 .nav-link-position:hover:after, .nav-link-position:focus  {
     width: 100%;   
-    color: rgb(14, 88, 156);
+    color: #0a58ca;
 }
 
 .nav-link-position:focus::after {
@@ -144,15 +144,12 @@ body {
     border-radius: 8px;
     padding: 10px 16px;
     margin: 23px 36px 0 0;
+    position: absolute;
 }
 
 .btn-container {
     position: relative;
     height: 45px;
-}
-
-.btn-possition {
-    position: absolute;
 }
 
 .final-part {
@@ -161,9 +158,18 @@ body {
     background-color: #F6F6F6;
 }
 
-.black-border-bottom {
-    color: #252726;
+.popular-destination-btn:hover {
+    color: #0a58ca !important;
+}
+
+.explore-all-btn {
+    color: #252726 !important;
     border-bottom: 1.9px solid #252726;
+}
+
+.explore-all-btn:hover {
+    color: #0a58ca !important;
+    border-bottom: 1.9px solid #0a58ca;
 }
 
 @media only screen and (max-width: 320px) {
@@ -171,8 +177,8 @@ body {
         height: 210px;
     }
 
-    .toggle-btn-parent {
-        margin-top: 25px;
+    .round-trip-tgl-btn {
+        padding-top: 10px;
     }
 }
 
@@ -216,7 +222,23 @@ body {
         position: relative;
         height: 700px;
     }
-    
+
+    .round-trip-tgl-btn {
+        padding-top: 10px;
+    }
+
+    .btn-container {
+        height: 100px;
+    }
+
+    .search-flights-btn {
+        display: flex;
+        align-items: center;
+        position: static;
+        margin: 30px 20px;
+        padding: 0px 20px;
+        height: 40px;
+    }
     
 }
 
@@ -230,7 +252,6 @@ body {
     }
 
     .p-abolute {
-        
         margin-top: 40px;
     }
 }
