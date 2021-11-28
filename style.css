@@ -180,6 +180,10 @@ body {
     .round-trip-tgl-btn {
         padding-top: 10px;
     }
+
+    .passengers-tglr-btn {
+        margin-top: 0px !important;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -224,7 +228,11 @@ body {
     }
 
     .round-trip-tgl-btn {
-        padding-top: 10px;
+        padding-top: 20px;
+    }
+
+    .passengers-tglr-btn {
+        margin-top: 20px;
     }
 
     .btn-container {
@@ -253,6 +261,14 @@ body {
 
     .p-abolute {
         margin-top: 40px;
+    }
+
+    .round-trip-tgl-btn {
+        padding-top: 20px;
+    }
+
+    .passengers-tglr-btn {
+        margin-top: 20px;
     }
 }
 
