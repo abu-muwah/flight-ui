@@ -227,6 +227,10 @@ body {
         height: 700px;
     }
 
+    .final-part {
+        height: 350px !important;
+    }
+
     .round-trip-tgl-btn {
         padding-top: 20px;
     }
@@ -256,11 +260,15 @@ body {
     }
 
     .p-relative {
-        height: 700px;
+        height: 680px !important;
     }
 
     .p-abolute {
-        margin-top: 40px;
+        margin-top: 100px;
+    }
+
+    .final-part {
+        height: 300px;
     }
 
     .round-trip-tgl-btn {
@@ -272,6 +280,11 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .p-relative {
+        height: 570px;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .navbar-pages {
         font-size: 13px;
